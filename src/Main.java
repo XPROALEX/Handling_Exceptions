@@ -1,11 +1,14 @@
 public class Main {
     public static void main(String[] args) {
         try {
-            //double inputScore = 2.15;
-            //double inputScore = 50;
-            //double inputScore = 95.02;
-            double inputScore = 100.01;
+            double inputScore = 2.15;
+            double inputScore2 = 50;
+            double inputScore3 = 95.02;
+            double inputScore4 = 100.01;
             checkScore(inputScore);
+            checkScore(inputScore2);
+            checkScore(inputScore3);
+            checkScore(inputScore4);
         } catch (ArithmeticException arithmeticException) {
             System.out.println("Error: " + arithmeticException.getMessage());
         }
